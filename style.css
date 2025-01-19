@@ -121,18 +121,10 @@
 #get-started div::before {
     content: 'Email address';
     position: absolute;
-    top: 50%;
-    left: 10px;
-    font-size: 1.2rem;
     width: max-content;
     height: max-content;
-    transform: translateY(-50%);
     transition-property: all;
     transition-duration: 0.3s;
-}
-
-
-#get-started div:hover::before {
     font-size: 0.8rem;
     top: 3px;
     left: 10px;
@@ -551,16 +543,7 @@
     width: max-content;
     height: max-content;
     position: absolute;
-    top: 50%;
-    left: 12px;
     color: white;
-    font-size: 1.2rem;
-    transform: translateY(-50%);
-    transition-property: all;
-    transition-duration: 0.1s;
-}
-
-#get-started2-child div:hover::before{
     font-size: 0.8rem;
     top: 4px;
     left: 10px;
