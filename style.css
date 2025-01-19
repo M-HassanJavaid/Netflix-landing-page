@@ -441,28 +441,8 @@
     cursor: pointer;
 }
 
-#qna1:hover {
-    height: 296.4px;
-}
-
-#qna2:hover {
-    height: 202.4px;
-}
-
-#qna3:hover {
-    height: 328.4px;
-}
-
-#qna4:hover {
-    height: 202.4px;
-}
-
-#qna5:hover {
-    height: 202.4px;
-}
-
-#qna6:hover {
-    height: 296.4px;
+.QNA:hover{
+    height: max-content;
 }
 
 
