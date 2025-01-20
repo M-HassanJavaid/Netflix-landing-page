@@ -3,9 +3,11 @@
     padding: 0;
 }
 
-/* body{
+body{
     overflow-x: hidden;
-} */
+    max-width: 2000px;
+    margin: auto;
+}
 
 /* navbar */
 
@@ -722,5 +724,22 @@ footer>p {
 
     .q::before{
         width: 55px;
+    }
+}
+
+@media (min-width: 1492px){
+
+    body{
+        margin-top: 50px;
+        padding: 50px;
+    }
+
+    .reason-img-div img{
+        width: 150px;
+        
+    }
+
+    #get-started2-input{
+        width: 900px;
     }
 }
